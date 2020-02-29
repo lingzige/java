@@ -21,6 +21,7 @@ public class RemoveRepeatElements{
 		int i = 0;
 		for(int j=1;j<nums.length;j++){
 			if(nums[i]!=nums[j]){
+				// 不相等的话就放在i后面位置上
 				i++;
 				nums[i]=nums[j];
 			}
